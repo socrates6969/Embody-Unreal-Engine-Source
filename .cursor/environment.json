@@ -1,0 +1,11 @@
+{
+  "name": "Embody",
+  "install": "./.cursor/install.sh",
+  "terminals": [
+    {
+      "name": "Animation AI Server",
+      "command": "cd 'Example Apps/Embody-Animation-Offset-Studio' && exec ./server_env/bin/python server.py"
+    }
+  ],
+  "ports": [8420]
+}
