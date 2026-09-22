@@ -7,6 +7,13 @@ __pycache__/
 *.pyc
 *.pyo
 
+# Node / Electron app dependencies (installed by setup.sh / .cursor/install.sh)
+node_modules/
+
+# Animation Offset Studio — Python venv and trained model checkpoints
+Example Apps/Embody-Animation-Offset-Studio/server_env/
+Example Apps/Embody-Animation-Offset-Studio/anim_models/
+
 # Misc
 .DS_Store
 Thumbs.db
